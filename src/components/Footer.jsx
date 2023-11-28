@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <p>&copy Caleb Hemphill</p>
+      <p>&copy; Caleb Hemphill</p>
     </footer>
   )
 }
