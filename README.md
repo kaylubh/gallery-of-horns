@@ -57,9 +57,9 @@ List collaborators here.
 #### Number and name of feature: #1 Display Images
 
   Estimate of time needed to complete: 30 mins
-  Start time: 
-  Finish time: 
-  Actual time needed to complete: 
+  Start time: 5:06pm
+  Finish time: 5:34pm
+  Actual time needed to complete: 28 mins
 
 #### Number and name of feature: #2 Allow Users to Favorite Individual Beasts
 
