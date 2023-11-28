@@ -64,9 +64,9 @@ List collaborators here.
 #### Number and name of feature: #2 Allow Users to Favorite Individual Beasts
 
   Estimate of time needed to complete: 1 hour
-  Start time: 
-  Finish time: 
-  Actual time needed to complete: 
+  Start time: 5:39pm
+  Finish time: 6:27pm
+  Actual time needed to complete: 48 mins
 
 #### Number and name of feature: #3 Bootstrap
 
