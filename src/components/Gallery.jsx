@@ -40,7 +40,7 @@ function HornedBeast({ title, description, imageUrl }) {
   return (
     <div>
       <h2>{title}</h2>
-      <img src={imageUrl} alt={description} />
+      <img src={imageUrl} alt={description} title={title} />
       <p>{description}</p>
     </div>
   )
