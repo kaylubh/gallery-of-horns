@@ -1,8 +1,7 @@
-// import react
+// react
 import { useState } from 'react';
-
-// import bootstrap
-import Image from 'react-bootstrap/Image';
+// bootstrap
+import Card from 'react-bootstrap/Card';
 
 function HornedBeast({ title, description, imageUrl }) {
 
@@ -13,14 +12,16 @@ function HornedBeast({ title, description, imageUrl }) {
   }
 
   return (
-    <div onClick={addFavorite}>
-      <h2>{title}</h2>
-      <Image src={imageUrl} alt={description} title={title} rounded fluid></Image>
-      <p>
-        <span>{description}</span>
+    <Card onClick={addFavorite}>
+      <Card.Header as="h2">{title}</Card.Header>
+      <Card.Body>
+        <Card.Img src={imageUrl} alt={description} title={title}></Card.Img>
+        <Card.Text>{description}</Card.Text>
+      </Card.Body>
+      <Card.Footer>
         <i className="bi bi-heart-fill"> {favoriteCount}</i>
-      </p>
-    </div>
+      </Card.Footer>
+    </Card>
   )
 }
 

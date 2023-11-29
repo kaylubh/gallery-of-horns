@@ -1,16 +1,26 @@
-// import data
-import images from '../data/image-data.json';
-// import components
+// bootstrap
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+// data
+import beasts from '../data/beasts-data.json';
+// components
 import HornedBeast from './HornedBeast';
 
 function Gallery() {
   return (
-    <main>
-      {/* GitHub Copilot Chat helped me understand how to write this loop */}
-      {images.map((image) => {
-        return <HornedBeast key={image._id} title={image.title} description={image.description} imageUrl={image.image_url} />
-      })}
-    </main>
+    <Container>
+      <Row>
+        {/* GitHub Copilot Chat helped me understand how to write this loop */}
+        {beasts.map((beast) => {
+          return (
+            <Col key={`grid-${beast._id}`}>
+              <HornedBeast key={`beast-${beast._id}`} title={beast.title} description={beast.description} imageUrl={beast.image_url} />
+            </Col>
+          )
+        })}
+      </Row>
+    </Container>
   )
 }
 

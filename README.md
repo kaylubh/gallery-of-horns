@@ -71,9 +71,9 @@ List collaborators here.
 #### Number and name of feature: #3 Bootstrap
 
   Estimate of time needed to complete: 1 hour
-  Start time: 
-  Finish time: 
-  Actual time needed to complete: 
+  Start time: 6:31pm
+  Finish time: 8:36pm
+  Actual time needed to complete: ~1 hour (1 dinner break)
 
 #### Number and name of feature: #4 Add Interaction
 
