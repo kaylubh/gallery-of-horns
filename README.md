@@ -4,7 +4,13 @@ Project description goes here.
 
 ## Accessibility Report
 
+### Lab 1
+
 ![Lighthouse report, score: 100](/lighthouse-reports/lab1-report.png)
+
+### Lab 2
+
+![Lighthouse report, score: 100](/lighthouse-reports/lab2-report.png)
 
 ## Getting Started
 
