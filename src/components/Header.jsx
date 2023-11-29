@@ -3,6 +3,7 @@ import { useState } from 'react';
 // bootstrap
 import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
+import InputGroup from 'react-bootstrap/InputGroup';
 import Container from 'react-bootstrap/Container';
 
 function Header() {
@@ -27,9 +28,11 @@ function Header() {
       <Navbar>
         <Container>
           <Navbar.Brand>Gallery of Horns</Navbar.Brand>
-          <Form className='justify-content-end'>
+          <InputGroup className='justify-content-end'>
+            <i className='bi bi-lightbulb'></i>
             <Form.Switch onInput={toggleColorMode} aria-label='dark color theme mode'></Form.Switch>
-          </Form>
+            <i className='bi bi-lightbulb-fill'></i>
+          </InputGroup>
         </Container>
       </Navbar>
     </header>
