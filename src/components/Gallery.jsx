@@ -1,48 +1,26 @@
-const images = [
-  {
-    "_id": 1,
-    "image_url": "http://3.bp.blogspot.com/_DBYF1AdFaHw/TE-f0cDQ24I/AAAAAAAACZg/l-FdTZ6M7z8/s1600/Unicorn_and_Narwhal_by_dinglehopper.jpg",
-    "title": "UniWhal",
-    "description": "A unicorn and a narwhal nuzzling their horns",
-    "keyword": "narwhal",
-    "horns": 1
-  },
-  {
-    "_id": 2,
-    "image_url": "https://images.unsplash.com/photo-1512636618879-bbe79107e9e3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd9460ee6d1ddbb6b1ca7be86dfc4590&auto=format&fit=crop&w=1825&q=80",
-    "title": "Rhino Family",
-    "description": "Parent rhino with two babies",
-    "keyword": "rhino",
-    "horns": 2
-  },
-  {
-    "_id": 3,
-    "image_url": "https://www.dhresource.com/0x0s/f2-albu-g5-M00-1A-11-rBVaI1hsIIiALxKzAAIHjSU3VkE490.jpg/wholesale-halloween-costume-prop-unicorn.jpg",
-    "title": "Unicorn Head",
-    "description": "Someone wearing a very silly unicorn head mask",
-    "keyword": "unicorn",
-    "horns": 1
-  }
-]
+// bootstrap
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+// data
+import beasts from '../data/beasts-data.json';
+// components
+import HornedBeast from './HornedBeast';
 
 function Gallery() {
   return (
-    <main>
-      {/* GitHub Copilot Chat helped me understand how to write this loop */}
-      {images.map((image) => {
-        return <HornedBeast key={image._id} title={image.title} description={image.description} imageUrl={image.image_url} />
-      })}
-    </main>
-  )
-}
-
-function HornedBeast({ title, description, imageUrl }) {
-  return (
-    <div>
-      <h2>{title}</h2>
-      <img src={imageUrl} alt={description} title={title} />
-      <p>{description}</p>
-    </div>
+    <Container>
+      <Row>
+        {/* GitHub Copilot Chat helped me understand how to write this loop */}
+        {beasts.map((beast) => {
+          return (
+            <Col key={`grid-${beast._id}`}>
+              <HornedBeast key={`beast-${beast._id}`} title={beast.title} description={beast.description} imageUrl={beast.image_url} />
+            </Col>
+          )
+        })}
+      </Row>
+    </Container>
   )
 }
 
