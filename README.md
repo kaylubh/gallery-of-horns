@@ -73,11 +73,11 @@ List collaborators here.
   Estimate of time needed to complete: 1 hour
   Start time: 6:31pm
   Finish time: 8:36pm
-  Actual time needed to complete: ~1 hour (1 dinner break)
+  Actual time needed to complete: ~1 hour (-1 hour dinner break)
 
 #### Number and name of feature: #4 Add Interaction
 
   Estimate of time needed to complete: 1 hour
-  Start time: 
-  Finish time: 
-  Actual time needed to complete: 
+  Start time: 11:15pm
+  Finish time: 12:52am
+  Actual time needed to complete: 1 hour 37 mins
