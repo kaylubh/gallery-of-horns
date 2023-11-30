@@ -12,6 +12,10 @@ Project description goes here.
 
 ![Lighthouse report, score: 100](/lighthouse-reports/lab2-report.png)
 
+### Lab 3
+
+![Lighthouse report, score: 100](/lighthouse-reports/lab3-report.png)
+
 ## Getting Started
 
 ### Requirements
@@ -97,7 +101,7 @@ List collaborators here.
     Finish time: 8:30pm
     Actual time needed to complete: ~2 hours (-30 mins break)
 
-2. #### Fuzzy Search
+2. #### Fuzzy Search // TO DO
 
     Estimate of time needed to complete: 2 hours
     Start time:
