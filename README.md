@@ -79,7 +79,7 @@ List collaborators here.
     Estimate of time needed to complete: 1 hour
     Start time: 6:31pm
     Finish time: 8:36pm
-    Actual time needed to complete: ~1 hour (-1 hour dinner break)
+    Actual time needed to complete: ~1 hour (-1 hour break)
 
 4. #### Add Interaction
 
@@ -93,9 +93,9 @@ List collaborators here.
 1. #### Display Modal
 
     Estimate of time needed to complete: 1.5 hours
-    Start time:
-    Finish time:
-    Actual time needed to complete:
+    Start time: 5:53pm
+    Finish time: 8:30pm
+    Actual time needed to complete: ~2 hours (-30 mins break)
 
 2. #### Fuzzy Search
 

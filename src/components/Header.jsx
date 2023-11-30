@@ -27,7 +27,9 @@ function Header() {
     <header>
       <Navbar>
         <Container>
-          <Navbar.Brand>Gallery of Horns</Navbar.Brand>
+          <Navbar.Brand>
+            <h1>Gallery of Horns</h1>
+          </Navbar.Brand>
           <InputGroup className='justify-content-end'>
             <i className='bi bi-lightbulb'></i>
             <Form.Switch onInput={toggleColorMode} aria-label='dark color theme mode'></Form.Switch>
