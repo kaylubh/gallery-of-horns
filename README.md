@@ -54,36 +54,52 @@ List versioned releases.
 
 List collaborators here.
 
-## Time Estimate
+## Features Time Estimates
 
 ***All times are Eastern Time***
 
 ### Class 02
 
-#### Number and name of feature: #1 Display Images
+1. #### Display Images
 
-  Estimate of time needed to complete: 30 mins
-  Start time: 5:06pm
-  Finish time: 5:34pm
-  Actual time needed to complete: 28 mins
+    Estimate of time needed to complete: 30 mins
+    Start time: 5:06pm
+    Finish time: 5:34pm
+    Actual time needed to complete: 28 mins
 
-#### Number and name of feature: #2 Allow Users to Favorite Individual Beasts
+2. #### Allow Users to Favorite Individual Beasts
 
-  Estimate of time needed to complete: 1 hour
-  Start time: 5:39pm
-  Finish time: 6:27pm
-  Actual time needed to complete: 48 mins
+    Estimate of time needed to complete: 1 hour
+    Start time: 5:39pm
+    Finish time: 6:27pm
+    Actual time needed to complete: 48 mins
 
-#### Number and name of feature: #3 Bootstrap
+3. #### Bootstrap
 
-  Estimate of time needed to complete: 1 hour
-  Start time: 6:31pm
-  Finish time: 8:36pm
-  Actual time needed to complete: ~1 hour (-1 hour dinner break)
+    Estimate of time needed to complete: 1 hour
+    Start time: 6:31pm
+    Finish time: 8:36pm
+    Actual time needed to complete: ~1 hour (-1 hour break)
 
-#### Number and name of feature: #4 Add Interaction
+4. #### Add Interaction
 
-  Estimate of time needed to complete: 1 hour
-  Start time: 11:15pm
-  Finish time: 12:52am
-  Actual time needed to complete: 1 hour 37 mins
+    Estimate of time needed to complete: 1 hour
+    Start time: 11:15pm
+    Finish time: 12:52am
+    Actual time needed to complete: 1 hour 37 mins
+
+### Class 03
+
+1. #### Display Modal
+
+    Estimate of time needed to complete: 1.5 hours
+    Start time: 5:53pm
+    Finish time: 8:30pm
+    Actual time needed to complete: ~2 hours (-30 mins break)
+
+2. #### Fuzzy Search
+
+    Estimate of time needed to complete: 2 hours
+    Start time:
+    Finish time:
+    Actual time needed to complete:
