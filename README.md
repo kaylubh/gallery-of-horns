@@ -1,6 +1,6 @@
 # Gallery of Horns
 
-Project description goes here.
+A web application concept built with React and Bootstrap. Users can explore, favorite, and filter a gallery of "beasts".
 
 ## Accessibility Report
 
@@ -16,6 +16,10 @@ Project description goes here.
 
 ![Lighthouse report, score: 100](/lighthouse-reports/lab3-report.png)
 
+### Lab 4
+
+![Lighthouse report, score: 100](/lighthouse-reports/lab4-report.png)
+
 ## Getting Started
 
 ### Requirements
@@ -25,8 +29,8 @@ Please use the appropriate [Editorconfig](http://editorconfig.org/) plugin for y
 
 ### Install
 
-    git clone https://github.com/ORG/PROJECT.git
-    cd PROJECT
+    git clone https://github.com/kaylubh/gallery-of-horns.git
+    cd gallery-of-horns
     npm install
 
 ### Configure app
@@ -44,19 +48,22 @@ Any environment configuration steps.
 
 ## Architecture
 
-Describe how the project is structured.
+***To Do*** Describe how the project is structured.
 
 ### Languages & tools
 
-Explain what tools are used.
+- Node.js
+- Vite
+- React
+- React Bootstrap
 
 ## Change Log
 
-List versioned releases.
+***To Do*** List versioned releases.
 
 ## Collaborators
 
-List collaborators here.
+- Assistance and inspiration from [Rhett Chase](https://github.com/rhettchase) on how to implement the filter feature
 
 ## Features Time Estimates
 
@@ -107,3 +114,12 @@ List collaborators here.
     Start time:
     Finish time:
     Actual time needed to complete:
+
+### Class 04
+
+1. #### Filter
+
+    Estimate of time needed to complete: 2 hours
+    Start time: 6:00pm
+    Finish time: 7:30pm
+    Actual time needed to complete: 1.5 hours

@@ -12,9 +12,11 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 import SelectedBeast from './components/SelectedBeast';
+import HornFilter from './components/HornFilter';
 
 function App() {
 
+  // display selectedBeast modal
   const [showSelectedBeast, setShowSelectedBeast] = useState(false);
   const [selectedBeast, setSelectedBeast] = useState({});
 
@@ -28,13 +30,33 @@ function App() {
     setSelectedBeast({});
   }
 
+  // filter gallery data
+  const [currentBeasts, setCurrentBeasts] = useState(beastsData);
+
+  function filterBeasts(filterSelection) {
+    let filteredBeasts;
+
+    if (filterSelection !== 'all') {
+      filteredBeasts = beastsData.filter(beast => beast.horns === parseInt(filterSelection));
+    } else {
+      filteredBeasts = beastsData;
+    }
+
+    setCurrentBeasts(filteredBeasts);
+  }
+
+  // render App
   return (
     <Container>
 
       <Header />
 
+      <HornFilter
+        onSelect={filterBeasts}
+      />
+
       <Gallery
-        beastsData={beastsData}
+        beastsData={currentBeasts}
         onRequest={renderSelectedBeast}
       />
 
